@@ -1,0 +1,231 @@
+@font-face {
+    font-family: rubik;
+    src: url("./Rubik-Regular.ttf");
+}
+
+
+*{
+    font-family: rubik;
+    padding: 0;
+    background-color: white;
+
+    color: #424242;
+}
+
+.listaNemium{
+    list-style: none;
+}
+
+header{
+    height: 350px;
+    background: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url(./assets/images/patron-2.png);
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #424242;
+}
+
+h1{
+
+    color: #000000;
+    font-size: 60px;
+    height: 71.1px;
+}
+
+h2{color: #000000;
+    font-size: 32px;
+    height: 37.5px;
+}
+
+h3{color: #000000;
+    text-decoration: underline;
+    font-size: 24px;
+    height: 28.44px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    display:inline-block;
+    width: 15%;
+    top: 0;
+    vertical-align: top;
+    position: relative;
+    margin: 30px;
+    direction: ltr;
+}
+
+main{
+    text-align: center;
+    display:inline-block;
+    width: 66%;
+    top: 0;
+    position: relative;
+    margin: 30px;
+}
+
+.listaNemium{
+    width: 188px;
+}
+
+p.variante{
+    color: #616161;
+    font-size: 14px;
+    font-family: rubik;
+}
+
+.parent{
+    direction:rtl;
+}
+
+button{
+    width: 188px;
+    border-radius: 4px;    
+    border: none;
+    padding: 15px;
+    text-align: left;
+    color: #808080;
+    text-decoration: none;
+
+}
+
+button.clicked{
+    color: white;
+    background-color: black;
+}
+
+summary{
+    font-weight: 700;
+    color: #616161;
+    font-family: rubik;
+}
+
+blockquote{
+    border: black;
+    padding-left: 20px;
+    border-left: solid;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #414141;
+}
+
+.code{
+    border: 8px solid #5551FF;
+    box-sizing: border-box;
+    box-shadow: -10px 10px 0px #ABAAF6;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.block{
+    font-size: 24px;
+}
+
+.sectionModelo{
+    text-align: left;
+    direction: ltr;
+}
+
+.contenido{
+    width: 188px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.listaNav{
+    list-style-type:decimal;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #616161;
+}
+
+.modelo{
+    color: #424242;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 18px;
+}
+
+.punteado{
+    color: #424242;
+    font-size: 16px;
+    line-height: 44px;
+    padding-left: 18px;
+    
+}
+
+ul li::before {
+  content: "\2022"; 
+  color: #5551FF;
+  font-weight: bold; 
+  display: inline-block;
+  width: 1em; 
+  margin-left: -1em;
+}
+
+input{
+    border: none;
+}
+
+.formulario{
+    direction: ltr;
+}
+
+.inputnombre{
+
+
+    border: solid;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 12px;
+    font-size: 16px;
+    border-width: 1px;
+}
+
+
+
+.subs{
+
+
+    border: solid;
+    border-radius: 20px;
+    display: inline-block;
+
+    border-width: 1px;
+}
+.correo{
+    padding: 0 0 0 30px;
+    margin-left: 2px;
+    font-size: 16px;
+}
+
+.enviar{
+    color:white;
+    background-color: #5551FF;
+    padding: 12px 30px 12px 30px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+footer{
+    text-align: center;
+    height: 300px;
+    background: #000000;
+}
+
+.pietext{
+    background: #000000;
+    color: white;
+}
+
+svg{
+    background: #000000;
+}
